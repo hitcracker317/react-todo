@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+}
+
+.align-items--end {
+  align-items: flex-end;
+}
+
+@mixin round-full($size) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+}
+
+@mixin padding--16-20 {
+  padding: 1.6rem 2rem;
+}
