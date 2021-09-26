@@ -1,10 +1,18 @@
 import { User } from 'components/molecules/user'
+import styled from 'styled-components'
+import { Colors } from 'hooks/variable'
 
 export const SideMenu = () => {
   return (
-    <aside>
+    <Side>
       <User />
       サイドメニューです
-    </aside>
+    </Side>
   )
 }
+
+const Side = styled.aside`
+  width: 30.8rem;
+  height: 100%;
+  background-color: ${Colors.colorSecondaryBackground}
+`

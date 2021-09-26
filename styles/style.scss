@@ -1,11 +1,13 @@
 // utilities
 @import 'styles/utility/_variable.scss';
 @import 'styles/utility/_utilities.scss';
+@import 'styles/utility/_typography.scss';
 
 // layout
 @import 'styles/layout/sidemenu.scss';
 
 html,
 body {
-  background-color: $color-primary;
+  color: $color-patagraph;
+  background-color: $color-base-background;
 }
